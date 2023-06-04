@@ -1,0 +1,28 @@
+#top{
+    max-width: 50%;
+    margin: 0 auto;
+    border: 5px solid black;
+}
+.same-background{
+    background-color: #0000ff;
+}
+#photo-ingredient>div{
+    width: 47%;
+    text-align: center;
+    height: 190px;
+}
+
+.holders>img{
+    width: 100%;
+    height: inherit;
+    
+}
+
+#nuts-oil>p{
+    width: 33%;
+    height: 140px;
+    padding-top: 60px;
+}
+div{
+    border-radius: 10px;
+}

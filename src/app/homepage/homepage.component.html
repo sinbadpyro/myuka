@@ -1,0 +1,38 @@
+<div class="justify-content-center text-center text-light" id="top">
+    <div class="p-3" id="cover">
+          <div class="yuka-and-scanner">
+             <div class="same-background p-2 mb-2"id="yuka">
+                <h1>MY YUKA</h1>
+                <p>obtenez les information sur les produits alimentaires</p>
+             </div>
+             <div class="same-background p-2" id="scanner">
+                <input type="text" id="lname" name="lname" [formControl]="champSaisi"><br><br>
+                <button type="button" class="btn btn-success" (click)="afficherChampSaisi()">SCANNER</button>
+             </div>
+          </div>
+
+          <div id="photo-ingredient" class="mt-3 mb-2 d-flex justify-content-between">
+               <div class="same-background holders" > <img src="{{photo}}" alt="" class="img-fluid"/> </div>
+               <div class="same-background holders">ingredient {{ingredient}}</div>
+          </div>
+
+          <div id="allergene" class="same-background p-3">
+              <p class="mt-3">Alergene : {{alergene}}</p>
+          </div>
+
+          <div id="nuts-oil" class="d-flex mt-3 justify-content-between">
+               <p class="same-background">NOVA {{nova}}</p>
+               <p class="same-background">NUTRISCORE {{nutriscore}}</p>
+               <p class="same-background">Huile de Palm {{huil}}</p>
+          </div>
+
+          <div id="distributer" class="same-background p-3">
+               <p class="mt-3">info distrubuteur/ fabricant/ pays : {{pays}}</p>
+          </div>
+
+          <footer class="mt-2 p-3">
+             <p class="same-background p-2">FOOTER</p>
+          </footer>
+
+    </div>
+</div>
